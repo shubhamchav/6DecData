@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.showProducts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+img{
+  height:140px;
+  width: 140px;
+}
+
+.buttonDiv{
+  display: flex;
+}
+
+.w-100{
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.main-component{
+  padding-left: 500px;
+}
+
+.shoppingcartbtn{
+  background-color: #8ceaf5;
+  border: 1px solid black;
+  color: black;
+  padding: 10px;
+}
+
+.orderTable{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.tablehead{
+  text-align: center;
+}
+
+.ErrorClass{
+  color: red;
+}
+
+/* .price{
+  color: black;
+  font-size: 22px;
+}
+.row{
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 20px;
+  ;
+}
+.column{
+  padding-left: 500px;
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: burlywood;
+  height: auto;
+  
+} */
+
+.ShowDogs{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.ShowPetCategory {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 80px;
+}
+
+.mainContainer{
+  padding-top: 200px;
+}
+.mainContainer1{
+  padding-top: 35px;
+}
+.mainContainer2 {
+  padding-top: 100px;
+  padding-left: 55px;
+}
+
+.mainContainer3 {
+  padding-top: 100px;
+}
+
+.btn-add-delete{
+  display:flex
+}
+
+.tableContainer{
+  padding-top: 100px;
+padding-right: 30px;
+  
+}
+
+.outerDiv{
+  display: flex;
+}
+
+.rows{
+  padding: 100px;
+}
+
+.favouriteBtn{
+ padding-left: 20px;
+}
+
+.favouriteDiv{
+  padding-left: 200px;
+}
+
+.innerDiv{
+  padding-right: 30px;
+}
+
+.petCategoryShowNow{
+  margin-top: 10px;
+  margin-bottom: -30px;
+}
+
+.signUpContainer{
+  padding-left: 70px;
+}
+
+.signUpDiv{
+  padding-left: 70px;
+}
+
+
